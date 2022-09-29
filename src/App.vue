@@ -1,11 +1,13 @@
+<template>
+  <b-container class="bv-example-row">
+    <b-row>
+      <b-col md="1">1 of 3</b-col>
+      <b-col md="3">2 of 3</b-col>
+      <b-col md="7">3 of 3</b-col>
+    </b-row>
+  </b-container>
+</template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<script>
+  export default {};
+</script>
