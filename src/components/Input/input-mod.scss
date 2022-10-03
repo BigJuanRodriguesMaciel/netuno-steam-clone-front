@@ -1,0 +1,158 @@
+$background-color-login: #2A2E32;
+$text-color-login: #C3CBD6;
+
+.form-check-input[type=checkbox].checkbox-account {
+    width: 12px;
+    height: 12px;
+    outline: 0;
+    border-radius: 1px;
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.form-select.select-account {
+    background-color: #32353C;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    outline: 0;
+    height: 21px;
+    font-size: 7px;
+    padding-bottom: 5px;
+
+    &:focus {
+        outline: 1px solid white;
+        outline-offset: 1px;
+        background-color: #32353C;
+        color: white;
+        box-shadow: none;
+    }
+}
+
+.form-control.input-account {
+    background-color: #32353C;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    outline: 0;
+    height: 21px;
+    font-size: 7px;
+    padding-bottom: 7px;
+
+    &:focus {
+        outline: 1px solid white;
+        outline-offset: 1px;
+        background-color: #32353C;
+        color: white;
+        box-shadow: none;
+    }
+}
+
+.form-check-input.checkbox-login {
+    background-color: $background-color-login !important;
+    width: 12px;
+    height: 12px;
+    border-radius: 0 !important;
+    border: 1px solid #474F61;
+    font-size: 8px;
+    outline: 0 !important;
+
+    &:focus {
+        background-color: $background-color-login !important;
+        outline: 0;
+        border: 1px solid $text-color-login !important;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    &:checked {
+        background: $background-color-login;
+        color: $text-color-login;
+        border-radius: 0;
+        border: 1px solid #474F61;
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+.form-control.input-login {
+    background-color: $background-color-login;
+    border: 1px solid #474F61;
+    border-radius: 0;
+    color: $text-color-login;
+    font-size: 8px;
+    height: 15px;
+    padding-bottom: 8px;
+    outline: 0;
+
+    &:focus {
+        background-color: $background-color-login;
+        color: $text-color-login;
+        border-radius: 0;
+        border: 1px solid $text-color-login;
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+.search-box {
+    background-color: #316282;
+    height: 27px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.3);
+    box-shadow: none;
+
+    &:hover {
+        border: 1px solid #4c9acc;
+        box-shadow: none;
+    }
+
+    input {
+        background: transparent;
+        border-radius: 0;
+        border: none;
+        color: white;
+        height: 27px;
+        outline: 0;
+        padding-bottom: 9px;
+
+        &::placeholder {
+            color: #0e1c25;
+            font-size: 14px;
+            font-style: italic;
+            text-shadow: 1px 1px 0px rgb(255 255 255 / 10%);
+        }
+
+        &:focus {
+            color: white;
+            background: transparent;
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+
+    a {
+        border-radius: 3px !important;
+        background-color: #549BC7;
+        width: 23px;
+        height: 23px;
+        position: relative;
+        background-color: #4c9acc;
+        margin-right: 1px;
+        margin-top: 1px;
+
+        &:hover  {
+            background-color: #66c0f4 !important;
+        }
+
+        img {
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+        }
+    }
+}
