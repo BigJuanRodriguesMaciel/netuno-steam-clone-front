@@ -1,19 +1,20 @@
+<template>
+  <b-container class="bv-example-row">
+    <b-row>
+      <b-col md="3" v-for="(item, index) in imgDatas" :key="index">
+        <MainHeader :image="item" />
+      </b-col>
+    </b-row>
+  </b-container>
+</template>
 
-<<<<<<< Updated upstream
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
-=======
+
 <script>
   import MainHeader from "./components/Header/MainHeader.vue";
-
+  
   export default {
     data() {
       return {
@@ -31,4 +32,3 @@
     },
   };
 </script>
->>>>>>> Stashed changes
