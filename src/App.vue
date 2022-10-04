@@ -9,12 +9,10 @@
 </template>
 
 <style>
-
 </style>
 
 <script>
- 
- import MainHeader from "./components/Header/MainHeader.vue";
+  import MainHeader from "./components/Header/MainHeader.vue";
 
   export default {
     data() {
@@ -28,7 +26,8 @@
         ],
       };
     },
-
-    components: { MainHeader },
+    components: {
+    MainHeader
+    },
   };
 </script>

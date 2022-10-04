@@ -106,7 +106,7 @@ $text-color-login: #C3CBD6;
     height: 27px;
     border-radius: 3px;
     border: 1px solid rgba(0,0,0,.3);
-    box-shadow: none;
+    box-shadow: 1px 1px rgb(#316282, 0.842);
 
     &:hover {
         border: 1px solid #4c9acc;
@@ -119,6 +119,7 @@ $text-color-login: #C3CBD6;
         border: none;
         color: white;
         height: 27px;
+        font-size: 14px;
         outline: 0;
         padding-bottom: 9px;
 
@@ -135,11 +136,14 @@ $text-color-login: #C3CBD6;
             outline: 0;
             box-shadow: none;
         }
+
+        &::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+          }
     }
 
     a {
         border-radius: 3px !important;
-        background-color: #549BC7;
         width: 23px;
         height: 23px;
         position: relative;
@@ -157,6 +161,92 @@ $text-color-login: #C3CBD6;
             position: absolute;
             right: 4px;
             top: 4px;
+        }
+    }
+}
+
+.menu-search {
+    background-color: #23252A;
+    width: 50% !important;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    box-shadow: none;
+    border-radius: 2px 0 0 2px;
+
+    &:hover {
+        border: 2px solid #1A1A1B;
+        box-shadow: none;
+    }
+
+    input {
+        background: transparent;
+        border-radius: 0;
+        border: none;
+        color: white;
+        height: 23px;
+        outline: 0;
+        font-size: 10px;
+        padding: 0 0 9px 0;
+        margin: 3px 0 0 0;
+        
+        &::placeholder {
+            opacity: 0;
+            color: #3F434A;
+            font-size: 10px;
+            font-style: italic;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        &:hover::placeholder {
+            opacity: 100;
+        }
+
+        &:focus::placeholder {
+            color: #69696B;
+            opacity: 100;
+        }
+
+        &:focus {
+            color: white;
+            background: transparent;
+            outline: 0;
+            box-shadow: none;
+        }
+
+        &::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+            position: absolute;
+            top: 2px;
+            right: 2px;  
+            height: 10px;
+            width: 10px;
+            background-image: url(../../assets/cross.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+
+    a {
+        border-radius: 0;
+        width: 17px;
+        height: 17px;
+        position: relative;
+        background-color: transparent;
+        margin-right: 0;
+        margin-top: 2px;
+
+        &:hover  {
+            background-color: transparent !important;
+        }
+
+        img {
+            height: 13px;
+            width: 13px;
+            position: absolute;
+            right: 4px;
+            top: 2px;
         }
     }
 }
