@@ -20,6 +20,10 @@
     </div>
     <br>
     <div>
+        <b-button class="btn"></b-button>
+    </div>
+    <br>
+    <div>
         <b-input-group class="search-box">
             <b-form-input placeholder="Search" maxlength="65"></b-form-input>
             <a class="btn"><img src="../../assets/loupe.png"></a>

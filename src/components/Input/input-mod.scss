@@ -1,11 +1,12 @@
 $background-color-login: #2A2E32;
 $text-color-login: #C3CBD6;
 
+
 .form-check-input[type=checkbox].checkbox-account {
     width: 12px;
     height: 12px;
     outline: 0;
-    border-radius: 1px;
+    border-radius: 0;
 
     &:focus {
         box-shadow: none;
@@ -15,7 +16,7 @@ $text-color-login: #C3CBD6;
 .form-select.select-account {
     background-color: #32353C;
     border: 0;
-    border-radius: 3px;
+    border-radius: 0;
     color: white;
     outline: 0;
     height: 21px;
@@ -34,7 +35,7 @@ $text-color-login: #C3CBD6;
 .form-control.input-account {
     background-color: #32353C;
     border: 0;
-    border-radius: 3px;
+    border-radius: 0;
     color: white;
     outline: 0;
     height: 21px;
@@ -52,11 +53,11 @@ $text-color-login: #C3CBD6;
 
 .form-check-input.checkbox-login {
     background-color: $background-color-login !important;
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-radius: 0 !important;
     border: 1px solid #474F61;
-    font-size: 8px;
+    font-size: 10px;
     outline: 0 !important;
 
     &:focus {
@@ -71,7 +72,7 @@ $text-color-login: #C3CBD6;
         background: $background-color-login;
         color: $text-color-login;
         border-radius: 0;
-        border: 1px solid #474F61;
+        border: 1px solid #e6e9f0;
         outline: 0;
         box-shadow: none;
     }
@@ -82,9 +83,12 @@ $text-color-login: #C3CBD6;
     border: 1px solid #474F61;
     border-radius: 0;
     color: $text-color-login;
-    font-size: 8px;
-    height: 15px;
-    padding-bottom: 8px;
+    font-size: 14px;
+    height: 25px;
+    align-items: center;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    width: 430px;
     outline: 0;
 
     &:focus {
