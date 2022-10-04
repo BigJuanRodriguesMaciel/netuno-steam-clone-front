@@ -6,7 +6,9 @@ $text-color-login: #C3CBD6;
     width: 12px;
     height: 12px;
     outline: 0;
-    border-radius: 0;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-top: 15px;
 
     &:focus {
         box-shadow: none;
@@ -14,38 +16,42 @@ $text-color-login: #C3CBD6;
 }
 
 .form-select.select-account {
-    background-color: #32353C;
+    background-color: #565b66;
     border: 0;
-    border-radius: 0;
+    border-radius: 3px;
     color: white;
     outline: 0;
-    height: 21px;
-    font-size: 7px;
-    padding-bottom: 5px;
+    height: 35px;
+    width: 370px;
+    font-size:15px;
+    padding-bottom: 10px;
+
 
     &:focus {
         outline: 1px solid white;
         outline-offset: 1px;
-        background-color: #32353C;
+        background-color: #565b66;
         color: white;
         box-shadow: none;
     }
 }
 
 .form-control.input-account {
-    background-color: #32353C;
+    background-color: #565b66;
     border: 0;
-    border-radius: 0;
+    border-color: #e6e9f0;
+    border-radius: 3px;
     color: white;
     outline: 0;
-    height: 21px;
-    font-size: 7px;
+    height: 35px;
+    width: 370px;
+    font-size: 15px;
     padding-bottom: 7px;
 
     &:focus {
         outline: 1px solid white;
         outline-offset: 1px;
-        background-color: #32353C;
+        background-color: #565b66;
         color: white;
         box-shadow: none;
     }

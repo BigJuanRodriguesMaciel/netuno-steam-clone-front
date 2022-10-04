@@ -6,6 +6,7 @@
       </b-col>
     </b-row>
   </b-container>
+  <CadastroSteam/>>
 </template>
 
 <style>
@@ -15,6 +16,7 @@
 <script>
  
  import MainHeader from "./components/Header/MainHeader.vue";
+import CadastroSteam from "./components/Cadastro/CadastroSteam.vue";
 
   export default {
     data() {
@@ -29,6 +31,6 @@
       };
     },
 
-    components: { MainHeader },
+    components: { MainHeader, CadastroSteam },
   };
 </script>
