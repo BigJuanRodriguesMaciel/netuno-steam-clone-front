@@ -34,7 +34,7 @@
     display: inline-block;
     border-radius: 0;
     background: rgb(145, 148, 156);
-    line-height: 20px;
+    line-height: 35px;
     font-size: 11px;
     padding: 0 25px;
     margin: 0 1px;
@@ -52,7 +52,7 @@
 }
 
 .btn-secondary.transparent-button {
-    display:  inline-block;
+    display: inline-block;
     border-radius: 2px;
     border: 2px solid rgb(178, 178, 178) !important;
     line-height: 20px;
@@ -71,14 +71,12 @@
 }
 
 .btn.clock-button {
-
     img {
         height: 20px;
     }
 }
 
 .btn.play-button {
-
     img {
         height: 20px;
     }
@@ -154,7 +152,7 @@
     }
 }
 
-.btn.fullscreen-button {
+.btn.big-picture-button {
     background: #e3e3e3;
     border: 1px solid rgb(0, 0, 0);
     margin: 4px;
@@ -170,7 +168,18 @@
 }
 
 .btn.settings-button {
-    
+    img {
+        height: 20px;
+    }
+}
+
+.btn.left-arrow-button {
+    img {
+        height: 20px;
+    }
+}
+
+.btn.right-arrow-button {
     img {
         height: 20px;
     }

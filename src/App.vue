@@ -2,7 +2,7 @@
   <b-container class="bv-example-row">
     <b-row>
       <b-col md="3" v-for="(item, index) in imgDatas" :key="index">
-        <MainHeader :image="item" />
+        <MainHeader :image="item"/>
       </b-col>
     </b-row>
   </b-container>
@@ -10,6 +10,8 @@
     <b-row>
       <b-col>
         <div>
+          <StandardButton/>
+          <StandardStreaming/>
         </div>
       </b-col>
     </b-row>
@@ -20,6 +22,8 @@
 </style>
 
 <script>
+  import StandardButton from "./components/Button/StandardButton.vue";
+  import StandardStreaming from "./components/Streaming/StandardStreaming.vue";
   import MainHeader from "./components/Header/MainHeader.vue";
   export default {
     data() {
@@ -34,7 +38,9 @@
       };
     },
     components: {
-    MainHeader
-    },
+    MainHeader,
+    StandardButton,
+    StandardStreaming
+},
   };
 </script>

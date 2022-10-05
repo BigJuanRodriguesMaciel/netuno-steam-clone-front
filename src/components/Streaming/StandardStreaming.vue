@@ -9,7 +9,7 @@
         </b-col>
       </b-row>
 
-      <b-row>
+      <b-row class="gx-2 gy-1">
         <b-col md="4" class="card-streaming" v-for="(item, index) in videoDatas" :key="index">
           <div>
             <iframe class="iframeStyle" :src="item"></iframe>

@@ -33,16 +33,22 @@
         <a class="btn add-button"  href="#"><img src="../../assets/ButtonImages/add-button.png"></a>
     </div>
     <div>
-        <a class="btn fullscreen-button"  href="#"><img src="../../assets/ButtonImages/fullscreen-button.png"></a>
+        <a class="btn big-picture-button"  href="#"><img src="../../assets/ButtonImages/fullscreen-button.png"></a>
     </div>
     <div>
         <a class="btn settings-button"  href="#"><img src="../../assets/ButtonImages/settings-button.png"></a>
+    </div>
+    <div>
+        <a class="btn left-arrow-button"  href="#"><img src="../../assets/ButtonImages/left-arrow.png"></a>
+    </div>
+    <div>
+        <a class="btn right-arrow-button"  href="#"><img src="../../assets/ButtonImages/right-arrow.png"></a>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'StandartButton', 
+        name: 'StandardButton', 
         props: {
             variant: {
                 type: String,
