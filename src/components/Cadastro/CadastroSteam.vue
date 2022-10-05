@@ -1,6 +1,16 @@
 <template>
   
-    <b-container class="InputContainer2">
+    <div class="box">
+      <p id="text2">Cadastrar-se</p>
+      <img class="img" click="" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027266193834385429/seta-esquerda.png" alt="">
+      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027266674757476352/seta-direita.png" alt="">
+      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027267154711695501/go-back-arrow.png" alt="">
+      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027276079653732423/cadeado.png" alt="">
+      <b-bottom class="bottom">Valve Corp [US]</b-bottom>
+      <a class="urlsteam" href="url">https://store.steampowerred.com/join/?|=brazilian</a>
+   </div>
+
+  <b-container class="InputContainer2">
         <h1 class="text">CADASTRAR-SE</h1>
         
         <b-form class="form">
@@ -217,7 +227,7 @@
              </b-form-select>  
              <br><br>
              <b-form-checkbox class="checkbox-account">Tenho 13 anos de idade ou mais e aceitoos termos <br>
-                do <b>Acordo de Assinatura do Steam e da politica <br> de Privacidade da Valve</b>
+                do <b>Acordo de Assinatura do Steam e da politica  de Privacidade da Valve</b>
              </b-form-checkbox>
              <br> 
          </b-form>
@@ -229,7 +239,7 @@
     
          </div>
     </b-container>
-    
+
     </template>
     
     <script>
@@ -239,30 +249,59 @@
     </script>
     
     <style lang="scss">
+
          @import '../Input/input-mod.scss';
 
-       .InputContainer2{
-        background-color: #32353C;
-        color: white;
-        padding-bottom: 40px;
-        padding-top: 40px;
-        margin-left: 70px;
-        border-radius: 2px;
-       }
 
-       .InputLabel {
-        color: white;
-       }
+         .InputContainer2{
+    background-color: #32353C;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-left: 70px;
 
-       .btn {
-        border-radius: 0;
-       }
+   }
 
-       .text {
-        margin-top: 15px;
-        font-size: 50px;
-       }
+   .InputLabel {
+    color: white;
+   }
 
-    
+   .btn {
+    border-radius: 0;
+   }
+
+   .text {
+    font-size: 50px;
+    margin-top: 15px;
+   }
+
+   .box {
+     background-color: #565b66;
+     margin-right: 840px;
+     margin-left: 131px;
+     height: 70px;
+
+   }
+
+
+   .img {
+     padding-right: 10px;
+
+   }
+
+   #text2 {
+     color: rgb(255, 251, 251);
+   }
+
+   .bottom {
+     background-color: green;
+     padding: 3px;
+     border-radius: 2px;
+   }
+
+   .urlsteam {
+     padding-left: 8px;
+     color: green
+   }
 
     </style>     
