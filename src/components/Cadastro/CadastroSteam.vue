@@ -1,17 +1,17 @@
 <template>
   
     <b-container class="InputContainer2">
-        <h1 class="text">CADASTRE-SE</h1>
+        <h1 class="text">CADASTRAR-SE</h1>
         
         <b-form class="form">
     
             <br><br>
         
-             <b-label class="InputLabel" for="nome">Endereço de E-mail</b-label>
+             <b-label class="InputLabel" for="nome">Endereço de e-mail</b-label>
              <b-form-input type="email" class="input-account" maxlength="65"></b-form-input>
              <br>
              <br>
-             <b-label class="InputLabel" for="nome">Confirme o E-mail</b-label>
+             <b-label class="InputLabel" for="nome">Confirme o e-mail</b-label>
              <b-form-input type="email" class="input-account" maxlength="65"></b-form-input>
              <br>
              <br>
