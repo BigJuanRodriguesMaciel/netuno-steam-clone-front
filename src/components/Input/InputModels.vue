@@ -20,11 +20,23 @@
     </div>
     <br>
     <div>
+        <b-button class="btn"></b-button>
+    </div>
+    <br>
+    <div>
         <b-input-group class="search-box">
             <b-form-input placeholder="Search" maxlength="65"></b-form-input>
             <a class="btn"><img src="../../assets/loupe.png"></a>
         </b-input-group>
     </div>
+    <br>
+    <div>
+        <b-input-group class="menu-search">
+            <a class="btn"><img src="../../assets/loupemenu.png"></a>
+            <b-form-input type="search" placeholder="Search by Name" maxlength="65"></b-form-input>
+        </b-input-group>
+    </div>
+    <br>
 </template>
 
 <script>

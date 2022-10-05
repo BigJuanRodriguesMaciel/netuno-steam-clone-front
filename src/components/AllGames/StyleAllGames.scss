@@ -1,0 +1,91 @@
+
+.all-games {
+    background-color: #2C313A;
+}
+
+#dropdown-1 {
+    display: inline-block;
+    &:hover {
+        background-color: #2C313A;
+    }
+}
+
+.dropdown-all {
+    .btn-secondary {
+        background-color: #2C313A;
+        border: 0;
+        color: #BEBEBF;
+        font-size: 13px;
+        border-radius: 0;
+    }
+
+    .dropdown-toggle::after{
+        margin-left: 40px;
+    }
+
+    .dropdown-menu{
+        background-color: #80828C;
+        height: 127px;
+        font-size: 8px;
+        border: 0; 
+        border-left: 1px solid #EBECEE;
+        border-radius: 0;
+    }
+
+    .dropdown-divider {
+        border-top: 1px solid #9698A0;
+        margin-bottom: 0;
+        margin-top: 2px;
+    }
+
+    .dropdown-item {
+        color: #EBECEE;
+        padding: 0 0 3px 10px;
+
+        &:hover {
+            color: #EBECEE;
+            background-color: #9899A1;
+        }
+    }
+}
+
+.text {
+    display: inline-block;
+    color: #7D7F84;
+    font-size: 13px;
+}
+
+#dropdown-2 {
+    display: inline-block;
+    height: 20px;
+    width: 50px;
+}
+
+.btn-group.dropdown-hours {
+    .btn-secondary {
+        background-color: #40444C;
+        border: 0;
+        color: #BEBEBF;
+        font-size: 8px;
+        border-radius: 3px;
+        margin-left: 2px;
+    }
+
+    .dropdown-menu{
+        background-color: #80828C;
+        height: 147px;
+        font-size: 8px;
+        border: 0; 
+        border-left: 1px solid #EBECEE;
+        border-radius: 0;
+    }
+    .dropdown-item {
+        color: #EBECEE;
+        padding: 0 0 3px 10px;
+
+        &:hover {
+            color: #EBECEE;
+            background-color: #9899A1;
+        }
+    }
+}
