@@ -1,0 +1,62 @@
+@import "../../styles/main.scss";
+
+#app {
+    width: 100%;
+    background-color: $background-color-global;
+
+}
+
+.header {
+    height: 100px;
+}
+
+.nav-link {
+    color: $text-color  !important;
+    margin-top: -35px;
+    font-size: 20px !important;
+}
+
+.btn#box1 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: 610px;
+}
+
+.btn#box2 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: 640px;
+    margin-top: -29px;
+    margin-bottom: 30px;
+}
+
+.btn#box5 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: 670px;
+    margin-top: -59px;
+    margin-bottom: 30px;
+}
+
+.btn#box6 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: 700px;
+    margin-top: -59px;
+    margin-bottom: 30px;
+}
+
+.btn#box3 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: -44px;
+
+}
+
+.btn#box4 {
+    width: 10px;
+    font-size: 10px !important;
+    margin-left: -74px;
+    margin-top: -29px;
+
+}
