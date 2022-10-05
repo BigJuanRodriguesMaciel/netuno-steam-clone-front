@@ -1,14 +1,5 @@
 <template>
   
-    <div class="box">
-      <p id="text2">Cadastrar-se</p>
-      <img class="img" click="" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027266193834385429/seta-esquerda.png" alt="">
-      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027266674757476352/seta-direita.png" alt="">
-      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027267154711695501/go-back-arrow.png" alt="">
-      <img class="img" src="https://cdn.discordapp.com/attachments/1026706518860627989/1027276079653732423/cadeado.png" alt="">
-      <b-bottom class="bottom">Valve Corp [US]</b-bottom>
-      <a class="urlsteam" href="url">https://store.steampowerred.com/join/?|=brazilian</a>
-   </div>
 
   <b-container class="InputContainer2">
         <h1 class="text">CADASTRAR-SE</h1>
