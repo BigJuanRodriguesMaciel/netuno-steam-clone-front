@@ -1,0 +1,21 @@
+.side-bar {
+    background-color: #2C313A;
+    height: auto;
+}
+
+.btn.sidebar-home {
+    padding: 0 10px 0 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #3E4047;
+    background-image: url(../../assets/steam-sidebar.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto; 
+    height: 30px;
+
+    &:hover {
+        background-color: #3E4047;
+    }  
+}

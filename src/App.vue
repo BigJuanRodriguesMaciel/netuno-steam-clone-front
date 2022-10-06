@@ -1,15 +1,20 @@
 <template>
-        <MainHeader />
+  <b-container><SideBarMenu/></b-container>
 </template>
 
 <style>
 </style>
 
 <script>
-  import MainHeader from "./components/Header/MainHeader.vue";
+  import SideBarMenu from "./components/SideBar/SideBarMenu.vue";
+
   export default {
+    data() {
+      return {
+      };
+    },
     components: {
-    MainHeader,
-},
+    SideBarMenu
+    },
   };
 </script>

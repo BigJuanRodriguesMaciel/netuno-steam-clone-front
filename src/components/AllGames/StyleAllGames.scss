@@ -1,6 +1,7 @@
 
 .all-games {
     background-color: #2C313A;
+    height: auto;
 }
 
 #dropdown-1 {
@@ -8,19 +9,36 @@
     &:hover {
         background-color: #2C313A;
     }
+    width: auto;
 }
 
-.dropdown-all {
+.btn-group.dropdown-all {
     .btn-secondary {
         background-color: #2C313A;
         border: 0;
         color: #BEBEBF;
         font-size: 13px;
         border-radius: 0;
+        padding: 0;
+
+        &:active {
+            background-color: #2C313A;
+            border: 0;
+        }
+    }
+    
+    .dropdown-toggle::after{
+        margin-left: 10px;
     }
 
-    .dropdown-toggle::after{
-        margin-left: 40px;
+    .btn {
+        background-color: #2C313A;
+        border: 0;
+
+        &:hover {
+            background-color: #2C313A;
+            border: 0;
+        }
     }
 
     .dropdown-menu{
@@ -53,12 +71,14 @@
     display: inline-block;
     color: #7D7F84;
     font-size: 13px;
+    margin-left: 15px;
+    margin-bottom: 8px;
 }
 
 #dropdown-2 {
     display: inline-block;
-    height: 20px;
-    width: 50px;
+    height: 15px;
+    width: auto;
 }
 
 .btn-group.dropdown-hours {
@@ -68,7 +88,20 @@
         color: #BEBEBF;
         font-size: 8px;
         border-radius: 3px;
-        margin-left: 2px;
+        padding: 0;
+    }
+
+    .btn {
+        background-color: #40444C;
+        border: 0;
+
+        &:hover {
+            background-color: #40444C;
+            border: 0;
+        }
+    }
+    .btn-content {
+        padding: 0 3px 0 3px;
     }
 
     .dropdown-menu{
@@ -87,5 +120,8 @@
             color: #EBECEE;
             background-color: #9899A1;
         }
+    }
+    .dropdown-toggle::after{
+        margin-right: 4px;
     }
 }

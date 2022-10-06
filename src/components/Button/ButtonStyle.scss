@@ -111,13 +111,15 @@
 }
 
 .btn.four-squares {
+    height: 30px;
     background: #2A2E32;
-    border: none;
-    margin: 4px;
-    border-radius: 0;
+    border: 0;
+    margin: 3px;
+    border-radius: 3px;
     img {
-        height: 35px;
+        height: 20px;
         background: transparent;
+        display:flex;
     }
     &:hover  {
         background: #47525c !important ;
