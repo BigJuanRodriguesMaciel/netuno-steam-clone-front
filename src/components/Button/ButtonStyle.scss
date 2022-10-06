@@ -73,12 +73,14 @@
 .btn.clock-button {
     img {
         height: 20px;
+        display: inline-block;
     }
 }
 
 .btn.play-button {
     img {
         height: 20px;
+        display: inline-block;
     }
 }
 
@@ -87,12 +89,15 @@
     border: none;
     margin: 4px;
     border-radius: 0;
+
     img {
-        height: 35px;
+        height: 15px;
+        width: 15px;
         background: transparent;
     }
-    &:hover  {
-        background: #47525c !important ;
+
+    &:hover {
+        background: #47607a !important;
     }
 }
 
@@ -101,12 +106,15 @@
     border: none;
     margin: 4px;
     border-radius: 0;
+
     img {
-        height: 35px;
+        height: 15px;
+        width: 15px;
         background: transparent;
     }
-    &:hover  {
-        background: #47525c !important ;
+
+    &:hover {
+        background: #47525c !important;
     }
 }
 
@@ -116,13 +124,15 @@
     border: 0;
     margin: 3px;
     border-radius: 3px;
+    
     img {
         height: 20px;
         background: transparent;
         display:flex;
     }
-    &:hover  {
-        background: #47525c !important ;
+
+    &:hover {
+        background: #47525c !important;
     }
 }
 
@@ -131,12 +141,14 @@
     border: none;
     margin: 4px;
     border-radius: 0;
-    img { 
+
+    img {
         height: 35px;
         background: transparent;
     }
-    &:hover  {
-        background: #47525c !important ;
+
+    &:hover {
+        background: #47525c !important;
     }
 }
 
@@ -145,12 +157,14 @@
     border: 1px solid rgb(178, 178, 178);
     margin: 4px;
     border-radius: 130px;
-    img { 
+
+    img {
         height: 35px;
         background: transparent;
     }
-    &:hover  {
-        background: #47525c !important ;
+
+    &:hover {
+        background: #47525c !important;
     }
 }
 
@@ -159,12 +173,14 @@
     border: 1px solid rgb(0, 0, 0);
     margin: 4px;
     border-radius: 0;
-    img { 
+
+    img {
         height: 35px;
         background: transparent;
     }
-    &:hover  {
-        background: #ffffff !important ;
+
+    &:hover {
+        background: #ffffff !important;
         border: 1px solid rgb(0, 0, 0) !important;
     }
 }
@@ -177,12 +193,12 @@
 
 .btn.left-arrow-button {
     img {
-        height: 20px;
+        height: 15px;
     }
 }
 
 .btn.right-arrow-button {
     img {
-        height: 20px;
+        height: 15px;
     }
 }

@@ -7,56 +7,107 @@
 }
 
 .header {
-    height: 100px;
+    height: 50px;
 }
 
-.nav-link {
-    color: $text-color  !important;
-    margin-top: -35px;
-    font-size: 20px !important;
+.nav-header {
+    display: inline-block;
+    height: 30px;
+
+    .nav-item {
+        font-size: 12px;
+        width: 50px;
+    }
+
+    .nav-link {
+        color: $text-color;
+
+        &:hover {
+            color: #fff;
+        }
+    }
 }
 
-.btn#box1 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: 610px;
+.buttons-header {
+    display: block;
+    float: right;
 }
 
-.btn#box2 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: 640px;
-    margin-top: -29px;
-    margin-bottom: 30px;
+
+
+.principal {
+    display: inline-block;
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        color: $text-color;
+
+        &:hover {
+            color: #fff;
+        }
+    }
 }
 
-.btn#box5 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: 670px;
-    margin-top: -59px;
-    margin-bottom: 30px;
+.arrow {
+    display: inline-block;
 }
 
-.btn#box6 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: 700px;
-    margin-top: -59px;
-    margin-bottom: 30px;
+img {
+    height: 1.5rem;
 }
 
-.btn#box3 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: -44px;
+.dropuser {
+    display: block;
+    float: right;
 
-}
+    .btn {
+        font-size: 10px !important;
+        border-radius: 0;
+        height: 1.5;
+        width: 100px;
+        background-color: #2A2E32;
+        border: none;
+        color: #39accc;
 
-.btn#box4 {
-    width: 10px;
-    font-size: 10px !important;
-    margin-left: -74px;
-    margin-top: -29px;
+        &:hover {
+            background-color: #47607a !important;
+            color: #39accc !important;
+            font-weight: bold;
 
+        }
+    }
+
+    .btn-primary {
+        background-color: $background-color-global  !important;
+        border: none;
+        color: #39accc !important;
+    }
+
+    .dropdown-item {
+        background-color: $background-color-global;
+        color: $text-color;
+        font-weight: 100;
+
+        &:hover {
+            background-color: $background-color-global  !important;
+            color: $text-color  !important;
+            font-weight: bold !important;
+        }
+
+        p {
+            display: inline-block;
+            color: #39accc;
+        }
+    }
+
+    .dropdown-menu {
+        border-radius: 0;
+        background-color: $background-color-global;
+        font-size: 15px !important;
+
+
+    }
 }
