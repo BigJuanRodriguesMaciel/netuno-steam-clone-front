@@ -1,8 +1,5 @@
 <template>
-
-
     <FooterGlobal/>
-
 </template>
 
 <style>
@@ -16,8 +13,7 @@
       };
     },
     components: {
-
-    FooterGlobal,
+      FooterGlobal,
     },
   };
 </script>

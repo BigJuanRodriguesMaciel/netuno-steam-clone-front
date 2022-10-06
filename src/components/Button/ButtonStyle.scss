@@ -72,14 +72,14 @@
 
 .btn.clock-button {
     img {
-        height: 20px;
+        height: 15px;
         display: inline-block;
     }
 }
 
 .btn.play-button {
     img {
-        height: 20px;
+        height: 15px;
         display: inline-block;
     }
 }
@@ -137,14 +137,18 @@
 }
 
 .btn.adjust-button {
-    background: #2A2E32;
-    border: none;
-    margin: 4px;
-    border-radius: 0;
+    height: 25px;
+    background: #23252A;
+    border: 0;
+    margin: 3px;
+    border-radius: 3px;
+    display: block;
+    float: right;
 
     img {
-        height: 35px;
+        height: 15px;
         background: transparent;
+        display:flex;
     }
 
     &:hover {

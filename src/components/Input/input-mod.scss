@@ -167,12 +167,12 @@ $text-color-login: #C3CBD6;
 
 .menu-search {
     background-color: #23252A;
-    width: 50% !important;
     height: 25px;
     border-radius: 3px;
     border: 2px solid transparent;
     box-shadow: none;
     border-radius: 2px 0 0 2px;
+    display: inline-block;
 
     &:hover {
         border: 2px solid #1A1A1B;
@@ -189,6 +189,8 @@ $text-color-login: #C3CBD6;
         font-size: 10px;
         padding: 0 0 9px 0;
         margin: 3px 0 0 0;
+        display: block;
+        float: right;
         
         &::placeholder {
             opacity: 0;
@@ -236,6 +238,8 @@ $text-color-login: #C3CBD6;
         background-color: transparent;
         margin-right: 0;
         margin-top: 2px;
+        display: block;
+        float: left;
 
         &:hover  {
             background-color: transparent !important;
