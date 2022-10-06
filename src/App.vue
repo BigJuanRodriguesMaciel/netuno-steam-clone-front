@@ -1,20 +1,23 @@
 <template>
-  <b-container><SideBarMenu/></b-container>
+
+
+    <FooterGlobal/>
+
 </template>
 
 <style>
 </style>
 
 <script>
-  import SideBarMenu from "./components/SideBar/SideBarMenu.vue";
-
+  import FooterGlobal from "./components/Footer/FooterGlobal.vue";
   export default {
     data() {
       return {
       };
     },
     components: {
-    SideBarMenu
+
+    FooterGlobal,
     },
   };
 </script>
