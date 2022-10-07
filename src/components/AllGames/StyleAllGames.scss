@@ -1,0 +1,127 @@
+
+.all-games {
+    background-color: #2C313A;
+    height: auto;
+}
+
+#dropdown-1 {
+    display: inline-block;
+    &:hover {
+        background-color: #2C313A;
+    }
+    width: auto;
+}
+
+.btn-group.dropdown-all {
+    .btn-secondary {
+        background-color: #2C313A;
+        border: 0;
+        color: #BEBEBF;
+        font-size: 13px;
+        border-radius: 0;
+        padding: 0;
+
+        &:active {
+            background-color: #2C313A;
+            border: 0;
+        }
+    }
+    
+    .dropdown-toggle::after{
+        margin-left: 10px;
+    }
+
+    .btn {
+        background-color: #2C313A;
+        border: 0;
+
+        &:hover {
+            background-color: #2C313A;
+            border: 0;
+        }
+    }
+
+    .dropdown-menu{
+        background-color: #80828C;
+        height: 127px;
+        font-size: 8px;
+        border: 0; 
+        border-left: 1px solid #EBECEE;
+        border-radius: 0;
+    }
+
+    .dropdown-divider {
+        border-top: 1px solid #9698A0;
+        margin-bottom: 0;
+        margin-top: 2px;
+    }
+
+    .dropdown-item {
+        color: #EBECEE;
+        padding: 0 0 3px 10px;
+
+        &:hover {
+            color: #EBECEE;
+            background-color: #9899A1;
+        }
+    }
+}
+
+.text {
+    display: inline-block;
+    color: #7D7F84;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+
+#dropdown-2 {
+    display: inline-block;
+    height: 15px;
+    width: auto;
+}
+
+.btn-group.dropdown-hours {
+    .btn-secondary {
+        background-color: #40444C;
+        border: 0;
+        color: #BEBEBF;
+        font-size: 8px;
+        border-radius: 3px;
+        padding: 0;
+    }
+
+    .btn {
+        background-color: #40444C;
+        border: 0;
+
+        &:hover {
+            background-color: #40444C;
+            border: 0;
+        }
+    }
+    .btn-content {
+        padding: 0 3px 0 3px;
+    }
+
+    .dropdown-menu{
+        background-color: #80828C;
+        height: 147px;
+        font-size: 8px;
+        border: 0; 
+        border-left: 1px solid #EBECEE;
+        border-radius: 0;
+    }
+    .dropdown-item {
+        color: #EBECEE;
+        padding: 0 0 3px 10px;
+
+        &:hover {
+            color: #EBECEE;
+            background-color: #9899A1;
+        }
+    }
+    .dropdown-toggle::after{
+        margin-right: 4px;
+    }
+}

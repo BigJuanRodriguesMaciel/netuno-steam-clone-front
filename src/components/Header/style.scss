@@ -1,0 +1,113 @@
+@import "../../styles/main.scss";
+
+#app {
+    width: 100%;
+    background-color: $background-color-global;
+
+}
+
+.header {
+    height: 50px;
+}
+
+.nav-header {
+    display: inline-block;
+    height: 30px;
+
+    .nav-item {
+        font-size: 12px;
+        width: 50px;
+    }
+
+    .nav-link {
+        color: $text-color;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.buttons-header {
+    display: block;
+    float: right;
+}
+
+
+
+.principal {
+    display: inline-block;
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        color: $text-color;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.arrow {
+    display: inline-block;
+}
+
+img {
+    height: 1.5rem;
+}
+
+.dropuser {
+    display: block;
+    float: right;
+
+    .btn {
+        font-size: 10px !important;
+        border-radius: 0;
+        height: 1.5;
+        width: 100px;
+        background-color: #2A2E32;
+        border: none;
+        color: #39accc;
+
+        &:hover {
+            background-color: #47607a !important;
+            color: #39accc !important;
+            font-weight: bold;
+
+        }
+    }
+
+    .btn-primary {
+        background-color: $background-color-global  !important;
+        border: none;
+        color: #39accc !important;
+    }
+
+    .dropdown-item {
+        background-color: $background-color-global;
+        color: $text-color;
+        font-weight: 100;
+
+        &:hover {
+            background-color: $background-color-global  !important;
+            color: $text-color  !important;
+            font-weight: bold !important;
+        }
+
+        p {
+            display: inline-block;
+            color: #39accc;
+        }
+    }
+
+    .dropdown-menu {
+        border-radius: 0;
+        background-color: $background-color-global;
+        font-size: 15px !important;
+
+
+    }
+}
