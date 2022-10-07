@@ -14,7 +14,7 @@
       </b-dropdown>
 
     <b-row class="pt-2">
-      <b-col cols="6" sm="4" md="2" lg="2" class=" mb-2" v-for="(item, index) in imgDatas" :key="index">
+      <b-col cols="6" sm="4" md="2" lg="2" class=" size-img mb-2" v-for="(item, index) in imgDatas" :key="index">
         <ListAllGames :image="item" />
       </b-col>
     </b-row>
@@ -51,12 +51,12 @@ import ListAllGames from './ListAllGames.vue';
           'Steam Review',
         ],
         imgDatas: [
-          'https://loremflickr.com/100/200',
-          'https://loremflickr.com/100/200',
-          'https://loremflickr.com/100/200',
-          'https://loremflickr.com/100/200',
-          'https://loremflickr.com/100/200',
-          'https://loremflickr.com/100/200',
+          'https://loremflickr.com/640/480',
+          'https://loremflickr.com/640/480',
+          'https://loremflickr.com/640/480',
+          'https://loremflickr.com/640/480',
+          'https://loremflickr.com/640/480',
+          'https://loremflickr.com/640/480',
         ],
       };
     },
