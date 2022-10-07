@@ -1,6 +1,6 @@
 <template>
   <b-container class="all-games">
-      <b-dropdown class="dropdown-all" id="dropdown-1" :text="titleAllGames">
+      <b-dropdown class="dropdown-all" id="dropdown-1" :text="titleAllGames  + ` (${ imgDatas.length })`">
         <div v-for="(item, index) in allGames" :key="index">
           <b-dropdown-item v-if="item != '#divider'" @click="changeTitleAll(item)">{{ item }}</b-dropdown-item>
           <b-dropdown-divider v-else class="divider"></b-dropdown-divider>

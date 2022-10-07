@@ -1,5 +1,5 @@
 <template>
-  <b-container><SideBarMenu/></b-container>
+    <FooterGlobal/>
 </template>
 
 <style>
@@ -7,22 +7,14 @@
 </style>
 
 <script>
-  import SideBarMenu from "./components/SideBar/SideBarMenu.vue";
-
+  import FooterGlobal from "./components/Footer/FooterGlobal.vue";
   export default {
     data() {
       return {
-        imgDatas: [
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-        ],
       };
     },
     components: {
-    SideBarMenu
+      FooterGlobal,
     },
   };
 </script>
