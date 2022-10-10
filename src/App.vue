@@ -1,13 +1,15 @@
 <template>
   <b-container><SideBarMenu/></b-container>
-</template>
+  <CadastroSteam/>
+  </template>>
+
 
 <style>
 
 </style>
 
 <script>
-  import SideBarMenu from "./components/SideBar/SideBarMenu.vue";
+  import CadastroSteam from "./components/Cadastro/CadastroSteam.vue";
 
   export default {
     data() {
@@ -22,7 +24,7 @@
       };
     },
     components: {
-    SideBarMenu
-    },
+    CadastroSteam
+},
   };
 </script>

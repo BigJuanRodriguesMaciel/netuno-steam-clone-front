@@ -14,12 +14,5 @@ export default {
 
 <style>
 
-.loader {
- 
-   margin-left: 520px;
-   margin-right: 520px;
-
-
-}
 
 </style>

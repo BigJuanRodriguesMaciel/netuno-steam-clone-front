@@ -218,16 +218,13 @@
              </b-form-select>  
              <br><br>
              <b-form-checkbox class="checkbox-account">Tenho 13 anos de idade ou mais e aceitoos termos <br>
-                do <b>Acordo de Assinatura do Steam e da politica  de Privacidade da Valve</b>
+                do <b>Acordo de Assinatura do Steam e da politica <br> de Privacidade da Valve</b>
              </b-form-checkbox>
              <br> 
          </b-form>
     
-         <div class="InputBottom">
+         <div>
             <b-button class="btn">Continuar</b-button>
-            
-             
-    
          </div>
     </b-container>
 
@@ -242,57 +239,6 @@
     <style lang="scss">
 
          @import '../Input/input-mod.scss';
-
-
-         .InputContainer2{
-    background-color: #32353C;
-    color: white;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    margin-left: 70px;
-
-   }
-
-   .InputLabel {
-    color: white;
-   }
-
-   .btn {
-    border-radius: 0;
-   }
-
-   .text {
-    font-size: 50px;
-    margin-top: 15px;
-   }
-
-   .box {
-     background-color: #565b66;
-     margin-right: 840px;
-     margin-left: 131px;
-     height: 70px;
-
-   }
-
-
-   .img {
-     padding-right: 10px;
-
-   }
-
-   #text2 {
-     color: rgb(255, 251, 251);
-   }
-
-   .bottom {
-     background-color: green;
-     padding: 3px;
-     border-radius: 2px;
-   }
-
-   .urlsteam {
-     padding-left: 8px;
-     color: green
-   }
+         @import './CadastroSteam.scss';
 
     </style>     
