@@ -33,7 +33,7 @@
 .btn-secondary.wishlist-button {
     display: inline-block;
     border-radius: 0;
-    background: rgb(145, 148, 156);
+    background: #719aa5;
     line-height: 35px;
     font-size: 11px;
     padding: 0 25px;
@@ -43,6 +43,10 @@
     text-transform: uppercase;
     font-size: 11px;
     font-family: inherit;
+    position: absolute;
+    right: 130px;
+    top: 30px;
+
 
     &:hover {
         color: rgb(3, 3, 3) !important;
@@ -70,16 +74,35 @@
     }
 }
 
+
 .btn.clock-button {
+    border: 0;
+    border-radius: 0;
+    height: 25px;
+    padding: 0;
+    width: 50%;
+
     img {
-        height: 15px;
+        height: 10px;
+        position: absolute;
+        right: 1px;
+        top: 7px;
         display: inline-block;
     }
 }
 
 .btn.play-button {
+    border: 0;
+    border-radius: 0;
+    height: 25px;
+    padding: 0;
+    width: 50%;
+
     img {
-        height: 15px;
+        height: 10px;
+        position: absolute;
+        right: 2px;
+        top: 7px;
         display: inline-block;
     }
 }
@@ -119,36 +142,42 @@
 }
 
 .btn.four-squares {
-    height: 30px;
-    background: #2A2E32;
+    width: 25px;
+    height: 20px;
+    background: #25272D;
+    position: relative;
     border: 0;
-    margin: 3px;
+    margin-left: 3px;
     border-radius: 3px;
-    
-    img {
-        height: 20px;
-        background: transparent;
-        display:flex;
-    }
-
-    &:hover {
-        background: #47525c !important;
-    }
-}
-
-.btn.adjust-button {
-    height: 25px;
-    background: #23252A;
-    border: 0;
-    margin: 3px;
-    border-radius: 3px;
-    display: block;
-    float: right;
 
     img {
         height: 15px;
         background: transparent;
-        display:flex;
+        position: absolute;
+        right: 5px;
+        top: 2px;
+    }
+
+    &:hover {
+        background: #3E4047 !important;
+    }
+}
+
+.btn.adjust-button {
+    width: 28px;
+    height: 18px;
+    background: #23252A;
+    position: absolute;
+    border: 0;
+    border-radius: 3px;
+    margin: 0;
+
+    img {
+        height: 15px;
+        background: transparent;
+        position: absolute;
+        right: 6px;
+        top: 2px;
     }
 
     &:hover {

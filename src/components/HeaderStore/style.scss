@@ -1,0 +1,30 @@
+.header_store {
+    position: relative;
+}
+
+.store_nav {
+    display: inline-block;
+    background: linear-gradient(to right, #406396, #1d3781);
+    padding-top: 0px;
+    padding-right: 5px;
+    margin-top: 54px;
+
+
+
+
+    .nav-link {
+        font-size: 14px !important;
+        color: #fff;
+        font-weight: 500;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .nav-item {
+        &:hover {
+            background: linear-gradient(to right, #337ec3, #1d3781);
+        }
+    }
+}

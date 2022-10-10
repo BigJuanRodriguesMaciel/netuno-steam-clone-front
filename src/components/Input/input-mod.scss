@@ -23,7 +23,7 @@ $text-color-login: #C3CBD6;
     outline: 0;
     height: 35px;
     width: 370px;
-    font-size:15px;
+    font-size: 15px;
     padding-bottom: 10px;
 
 
@@ -58,7 +58,7 @@ $text-color-login: #C3CBD6;
 }
 
 .form-check-input.checkbox-login {
-    background-color: $background-color-login !important;
+    background-color: $background-color-login  !important;
     width: 16px;
     height: 16px;
     border-radius: 0 !important;
@@ -67,9 +67,9 @@ $text-color-login: #C3CBD6;
     outline: 0 !important;
 
     &:focus {
-        background-color: $background-color-login !important;
+        background-color: $background-color-login  !important;
         outline: 0;
-        border: 1px solid $text-color-login !important;
+        border: 1px solid $text-color-login  !important;
         border-radius: 0;
         box-shadow: none;
     }
@@ -110,8 +110,10 @@ $text-color-login: #C3CBD6;
 .search-box {
     background-color: #316282;
     height: 27px;
+    width: 150px !important;
+    margin-top: 5px;
     border-radius: 3px;
-    border: 1px solid rgba(0,0,0,.3);
+    border: 1px solid rgba(0, 0, 0, .3);
     box-shadow: 1px 1px rgb(#316282, 0.842);
 
     &:hover {
@@ -145,7 +147,7 @@ $text-color-login: #C3CBD6;
 
         &::-webkit-search-cancel-button {
             -webkit-appearance: none;
-          }
+        }
     }
 
     a {
@@ -157,7 +159,7 @@ $text-color-login: #C3CBD6;
         margin-right: 1px;
         margin-top: 1px;
 
-        &:hover  {
+        &:hover {
             background-color: #66c0f4 !important;
         }
 
@@ -173,7 +175,7 @@ $text-color-login: #C3CBD6;
 
 .menu-search {
     background-color: #23252A;
-    height: 25px;
+    height: 18px;
     border-radius: 3px;
     border: 2px solid transparent;
     box-shadow: none;
@@ -194,10 +196,9 @@ $text-color-login: #C3CBD6;
         outline: 0;
         font-size: 10px;
         padding: 0 0 9px 0;
-        margin: 3px 0 0 0;
-        display: block;
-        float: right;
-        
+        margin: 0;
+        display: inline-block;
+
         &::placeholder {
             opacity: 0;
             color: #3F434A;
@@ -226,7 +227,7 @@ $text-color-login: #C3CBD6;
             -webkit-appearance: none;
             position: absolute;
             top: 2px;
-            right: 2px;  
+            right: 2px;
             height: 10px;
             width: 10px;
             background-image: url(../../assets/cross.png);
@@ -238,25 +239,24 @@ $text-color-login: #C3CBD6;
 
     a {
         border-radius: 0;
-        width: 17px;
-        height: 17px;
+        width: 12px;
+        height: 12px;
         position: relative;
         background-color: transparent;
-        margin-right: 0;
-        margin-top: 2px;
+        margin: 0;
         display: block;
         float: left;
 
-        &:hover  {
+        &:hover {
             background-color: transparent !important;
         }
 
         img {
-            height: 13px;
-            width: 13px;
+            height: 11px;
+            width: 11px;
             position: absolute;
-            right: 4px;
-            top: 2px;
+            right: 6px;
+            top: 1px;
         }
     }
 }

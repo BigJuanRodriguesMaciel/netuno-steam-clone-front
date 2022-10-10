@@ -3,6 +3,8 @@
   <CadastroSteam/>
   </template>>
 
+</template>
+
 
 <style>
 
@@ -14,17 +16,13 @@
   export default {
     data() {
       return {
-        imgDatas: [
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-          "https://loremflickr.com/640/480",
-        ],
       };
     },
     components: {
+
     CadastroSteam
 },
-  };
+
+
+  }
 </script>
