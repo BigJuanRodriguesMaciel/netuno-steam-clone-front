@@ -33,7 +33,7 @@
 .btn-secondary.wishlist-button {
     display: inline-block;
     border-radius: 0;
-    background: rgb(145, 148, 156);
+    background: #719aa5;
     line-height: 35px;
     font-size: 11px;
     padding: 0 25px;
@@ -43,6 +43,10 @@
     text-transform: uppercase;
     font-size: 11px;
     font-family: inherit;
+    position: absolute;
+    right: 130px;
+    top: 30px;
+
 
     &:hover {
         color: rgb(3, 3, 3) !important;
@@ -145,7 +149,7 @@
     border: 0;
     margin-left: 3px;
     border-radius: 3px;
-    
+
     img {
         height: 15px;
         background: transparent;
