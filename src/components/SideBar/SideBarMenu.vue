@@ -33,11 +33,13 @@
                 <a class="btn adjust-button"  href="#"><img src="../../assets/ButtonImages/adjust-button.png"></a>
             </b-col>
         </b-row>
-
         <b-row class="pt-2">
             <div v-for="(item, index) in list" :key="index">
-                <p class="list-period ml-0">{{ item.listPeriodTitle + ` (${ item.listGames.length })` }}</p>
-                <b-col class="size-img-thumb" md="12" v-for="(listGamesItem, listGamesIndex) in item.listGames" :key="listGamesIndex">
+                <b-col md="12" class="list-games">
+                    <b-button class="more-less" @click="changeShowListGames(index)">{{(`${ item.showListGames ? '+' : '-' }`)}}</b-button>
+                    <p class="list-period ml-0">{{ item.listPeriodTitle + ` (${ item.listGames.length })` }}</p>
+                </b-col >
+                <b-col class="size-img-thumb" md="12" v-show="item.showListGames" v-for="(listGamesItem, listGamesIndex) in item.listGames" :key="listGamesIndex">
                     <img :src="listGamesItem.urlImage"/>
                     <p>{{ listGamesItem.title }}</p>
                 </b-col>
@@ -88,6 +90,13 @@
                     '#divider',
                     'GROUP BY COLLECTION',
                 ], 
+            }
+        },
+        methods: {
+            changeShowListGames (index) {
+                this.list[index].showListGames = ! this.list[index].showListGames;
+
+                console.log('changeShowListGames')
             }
         },
     };

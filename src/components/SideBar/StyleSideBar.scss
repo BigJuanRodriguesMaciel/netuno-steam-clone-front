@@ -12,10 +12,10 @@
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
-    font-size: 14px;
+    font-size: 11px;
     text-align: left;
     width: 100%;
-    height: 30px;
+    height: 20px;
 
     &:hover {
         background-color: #3E4047;
@@ -25,14 +25,13 @@
 .dropdown-menu-all.btn-group {
     width: 100%;
     .btn-secondary{
-        width: 100px;
-        height: 25px;
+        height: 18px;
         display: block;
         background-color: #23252A;
         border: 0;
         border-radius: 3px;
         padding: 0 10px 0 10px;
-        font-size: 14px;
+        font-size: 12px;
         text-align: left;
     }
 
@@ -41,10 +40,42 @@
     }
 }
 
-.list-period {
-    font-size: 8px;
-    color: #BAD2E7;
+.list-games {
+    height: 11px;
     background-color: #2A303B;
+    position: relative;
+
+    &:hover {
+        background-color: #3E4E69;
+    }
+}
+
+.btn.more-less {
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+    font-size: 7px;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 10px;
+    
+    &:hover {
+        background-color: transparent;
+    }
+}
+    
+
+.list-period {
+    width: 90%;
+    font-size: 7px;
+    color: #BAD2E7;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: 13px;
     margin: 0;
     padding: 0;
 
@@ -56,6 +87,7 @@
 
 .col-md-12.size-img-thumb {
     height: 15px;
+    position: relative;
     cursor: pointer;
 
     &:hover {
@@ -74,9 +106,10 @@
         height: 12px;
         margin: 0 0 0 3px;
         padding: 0 0 0 11px;
-        font-size: 8px;
+        font-size: 7px;
         color: #9097A4;
         position: absolute;
+        top: 2px;
         display: inline-block;
         white-space: nowrap;
         width: 150px;

@@ -49,10 +49,10 @@ export default {
           { value: '1', text: 'Teste 1' },
           { value: '2', text: 'Teste 2' },
           { value: '3', text: 'Teste 3' },
-        ]
-      }
-    }
-  }
+        ],
+        }
+    },
+    };
 </script>
 
 <style lang="scss">

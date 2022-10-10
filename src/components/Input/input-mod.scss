@@ -175,7 +175,7 @@ $text-color-login: #C3CBD6;
 
 .menu-search {
     background-color: #23252A;
-    height: 25px;
+    height: 18px;
     border-radius: 3px;
     border: 2px solid transparent;
     box-shadow: none;
@@ -196,7 +196,7 @@ $text-color-login: #C3CBD6;
         outline: 0;
         font-size: 10px;
         padding: 0 0 9px 0;
-        margin: 3px 0 0 0;
+        margin: 0;
         display: inline-block;
 
         &::placeholder {
@@ -239,12 +239,11 @@ $text-color-login: #C3CBD6;
 
     a {
         border-radius: 0;
-        width: 17px;
-        height: 17px;
+        width: 12px;
+        height: 12px;
         position: relative;
         background-color: transparent;
-        margin-right: 0;
-        margin-top: 2px;
+        margin: 0;
         display: block;
         float: left;
 
@@ -253,11 +252,11 @@ $text-color-login: #C3CBD6;
         }
 
         img {
-            height: 13px;
-            width: 13px;
+            height: 11px;
+            width: 11px;
             position: absolute;
-            right: 4px;
-            top: 2px;
+            right: 6px;
+            top: 1px;
         }
     }
 }

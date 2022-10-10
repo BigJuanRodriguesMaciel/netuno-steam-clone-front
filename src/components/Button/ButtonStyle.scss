@@ -142,10 +142,10 @@
 }
 
 .btn.four-squares {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 20px;
     background: #25272D;
-    position: absolute;
+    position: relative;
     border: 0;
     margin-left: 3px;
     border-radius: 3px;
@@ -154,8 +154,8 @@
         height: 15px;
         background: transparent;
         position: absolute;
-        right: 7px;
-        top: 7px;
+        right: 5px;
+        top: 2px;
     }
 
     &:hover {
@@ -164,8 +164,8 @@
 }
 
 .btn.adjust-button {
-    width: 33px;
-    height: 25px;
+    width: 28px;
+    height: 18px;
     background: #23252A;
     position: absolute;
     border: 0;
@@ -176,8 +176,8 @@
         height: 15px;
         background: transparent;
         position: absolute;
-        right: 8px;
-        top: 5px;
+        right: 6px;
+        top: 2px;
     }
 
     &:hover {

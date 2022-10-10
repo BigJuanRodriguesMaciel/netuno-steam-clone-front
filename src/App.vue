@@ -1,16 +1,5 @@
 <template>
-  <header>
-    <b-container fluid>
-    <MainHeader />
-  </b-container>
-  </header>
-<body>
-  <b-container fluid>
-    <HeaderStore/>
-  </b-container>
-</body>
-
-    
+    <FooterGlobal/>
 </template>
 
 <style>
@@ -18,16 +7,14 @@
 </style>
 
 <script>
-  import MainHeader from "./components/Header/MainHeader.vue"
-  import HeaderStore from "./components/HeaderStore/HeaderStore.vue";
+  import FooterGlobal from "./components/Footer/FooterGlobal.vue";
   export default {
     data() {
       return {
       };
     },
     components: {
-      MainHeader,
-      HeaderStore,
+      FooterGlobal,
     },
   };
 </script>
