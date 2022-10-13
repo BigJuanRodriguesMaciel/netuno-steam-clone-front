@@ -1,23 +1,19 @@
 <template>
-      <router-view/>
+    <router-view></router-view>
 </template>
+
 
 <style>
 
 </style>
 
 <script>
-  
-export default {
-  data() {
-    return {
-    };
-  },
-  /*mounted() {
-    console.log('teste')
-    console.log(this.axios)
-  },*/
-  components: {
-  },
-};
+  export default {
+    data() {
+      return {
+      };
+    },
+    components: {
+    },
+  };
 </script>
