@@ -1,5 +1,5 @@
 <template>
-    <FooterGlobal/>
+      <router-view/>
 </template>
 
 <style>
@@ -7,14 +7,17 @@
 </style>
 
 <script>
-  import FooterGlobal from "./components/Footer/FooterGlobal.vue";
-  export default {
-    data() {
-      return {
-      };
-    },
-    components: {
-      FooterGlobal,
-    },
-  };
+  
+export default {
+  data() {
+    return {
+    };
+  },
+  /*mounted() {
+    console.log('teste')
+    console.log(this.axios)
+  },*/
+  components: {
+  },
+};
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <b-container class="side-bar">
+    <b-container class="side-bar w-25">
         <b-row class="gx-0 gy-0">
             <b-col md="10">
                 <b-button class="side-bar-home">HOME</b-button>
@@ -12,7 +12,7 @@
             <b-col md="10">
                 <b-dropdown class="dropdown-menu-all" id="dropdown-3" text="ALL">
                 <div v-for="(item, index) in allMenu" :key="index">
-                    <b-dropdown-item v-if="item != '#divider'">{{ item }}</b-dropdown-item>
+                    <b-dropdown-item v-if="item != '#divider'"><input type="checkbox">{{ item }}</b-dropdown-item>
                     <b-dropdown-divider v-else class="divider"></b-dropdown-divider>
                 </div>
                 </b-dropdown>
@@ -34,9 +34,9 @@
             </b-col>
         </b-row>
         <b-row class="pt-2">
-            <div v-for="(item, index) in list" :key="index">
+            <div class="p-0" v-for="(item, index) in list" :key="index">
                 <b-col md="12" class="list-games">
-                    <b-button class="more-less" @click="changeShowListGames(index)">{{(`${ item.showListGames ? '+' : '-' }`)}}</b-button>
+                    <b-button class="more-less" @click="changeShowListGames(index)">{{(`${ item.showListGames ? '-' : '+' }`)}}</b-button>
                     <p class="list-period ml-0">{{ item.listPeriodTitle + ` (${ item.listGames.length })` }}</p>
                 </b-col >
                 <b-col class="size-img-thumb" md="12" v-show="item.showListGames" v-for="(listGamesItem, listGamesIndex) in item.listGames" :key="listGamesIndex">

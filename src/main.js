@@ -3,6 +3,7 @@ import BootstrapVue3 from 'bootstrap-vue-3'
 import App from './App.vue'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import router from './router'
 
 // Optional, since every component import their Bootstrap functionality
 // the following line is not necessary
@@ -15,6 +16,7 @@ import './styles/main.scss'
 const app = createApp(App)
 app
     .use(BootstrapVue3)
-    .mount('#app')
     .use(VueAxios, axios)
     .provide('axios', app.config.globalProperties.axios)
+    .use(router)
+    .mount('#app')
