@@ -1,7 +1,9 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 import Login from '@/components/LoginInicial/LoginSteam.vue'
 import Cadastro from '@/components/Cadastro/CadastroSteam.vue'
+import Library from '@/views/PageLibrary.vue'
+import Store from '@/views/PageStore.vue'
 
 
 const routes = [
@@ -11,11 +13,22 @@ const routes = [
     },
     {
         path: '/cadastro',
-        components: Cadastro,
+        component: Cadastro,
     },
+    {
+        path: '/library',
+        component: Library,
+    },
+    {
+        path: '/store',
+        component: Store,
+        meta: { shoeHeader: true, showFooter: true}
+    },
+
+
 ]
 const router = createRouter({
-    history: createWebHashHistory(),
+    history: createWebHistory(),
     routes
 })
 
