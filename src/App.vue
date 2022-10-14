@@ -2,6 +2,11 @@
 <<<<<<< HEAD
   <b-container><SideBarMenu/></b-container>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  <CadastroSteam/> 
+  </template>
+>>>>>>> Stashed changes
 =======
   <CadastroSteam/> 
   </template>
@@ -28,8 +33,13 @@
 </style>
 
 <script>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+ 
+  import { CadastroSteam } './Header/Cadastro/CadastroSteam.vue'
+>>>>>>> Stashed changes
 
   import MainHeader from "./components/Header/MainHeader.vue";
   import CadastroSteam from "./components/Cadastro/CadastroSteam.vue";
@@ -58,7 +68,11 @@ import FooterGlobal from "./components/Footer/FooterGlobal.vue";
     FooterGlobal,
     CadastroSteam
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
