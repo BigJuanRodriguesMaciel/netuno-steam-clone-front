@@ -4,7 +4,7 @@
   <b-container class="InputContainer2">
         <h1 class="text">CADASTRAR-SE</h1>
         
-        <b-form class="form">
+        <b-form class="form" style="width: 300px">
     
             <br><br>
         
@@ -48,12 +48,6 @@
               <option value="">Brunei</option>
               <option value="">Bulgária</option>
               <option value="">Burquina Faso</option>
-              <option value="">Burúndi</option>
-              <option value="">Butão</option>
-              <option value="">Cabo Verde</option>
-              <option value="">Camarões</option>
-              <option value="">Camboja</option>
-              <option value="">Canadá</option>
               <option value="">Catar</option>
               <option value="">Cazaquistão</option>
               <option value="">Chade</option>
@@ -74,82 +68,9 @@
               <option value="">Dinamarca</option>
               <option value="">Dominica</option>
               <option value="">Egito</option>
-              <option value="">Emirados Árabes Unidos</option>
-              <option value="">Equador</option>
-              <option value="">Eritreia</option>
-              <option value="">Eslováquia</option>
               <option value="">Eslovénia</option>
               <option value="">Espanha</option>
               <option value="">Essuatíni</option>
-              <option value="">Estado da Palestina</option>
-              <option value="">Estados Unidos</option>
-              <option value="">Estónia</option>
-              <option value="">Etiópia</option>
-              <option value="">Fiji</option>
-              <option value="">Filipinas</option>
-              <option value="">Finlândia</option>
-              <option value="">França</option>
-              <option value="">Gabão</option>
-              <option value="">Gâmbia</option>
-              <option value="">Gana</option>
-              <option value="">Geórgia</option>
-              <option value="">Granada</option>
-              <option value="">Grécia</option>
-              <option value="">Guatemala</option>
-              <option value="">Guiana</option>
-              <option value="">Guiné</option>
-              <option value="">Guiné Equatorial</option>
-              <option value="">Guiné-Bissau</option>
-              <option value="">Haiti</option>
-              <option value="">Honduras</option>
-              <option value="">Hungria</option>
-              <option value="">Iémen</option>
-              <option value="">Ilhas Marechal</option>
-              <option value="">Índia</option>
-              <option value="">Indonésia</option>
-              <option value="">Irão</option>
-              <option value="">Iraque</option>
-              <option value="">Islândia</option>
-              <option value="">Israel</option>
-              <option value="">Itália</option>
-              <option value="">Jamaica</option>
-              <option value="">Japão</option>
-              <option value="">Jibuti</option>
-              <option value="">Jordânia</option>
-              <option value="">Laus</option>
-              <option value="">Lesoto</option>
-              <option value="">Letónia</option>
-              <option value="">Líbano</option>
-              <option value="">Libéria</option>
-              <option value="">Líbia</option>
-              <option value="">Listenstaine</option>
-              <option value="">Lituânia</option>
-              <option value="">Luxemburgo</option>
-              <option value="">Macedónia do Norte</option>
-              <option value="">Madagáscar</option>
-              <option value="">Malásia</option>
-              <option value="">Maláui</option>
-              <option value="">Maldivas</option>
-              <option value="">Mali</option>
-              <option value="">Malta</option>
-              <option value="">Marrocos</option>
-              <option value="">Maurícia</option>
-              <option value="">Mauritânia</option>
-              <option value="">México</option>
-              <option value="">Mianmar</option>
-              <option value="">Micronésia</option>
-              <option value="">Moçambique</option>
-              <option value="">Moldávia</option>
-              <option value="">Mónaco</option>
-              <option value="">Mongólia</option>
-              <option value="">Montenegro</option>
-              <option value="">Namíbia</option>
-              <option value="">Nauru</option>
-              <option value="">Nepal</option>
-              <option value="">Nicarágua</option>
-              <option value="">Níger</option>
-              <option value="">Nigéria</option>
-              <option value="">Noruega</option>
               <option value="">Nova Zelândia</option>
               <option value="">Omã</option>
               <option value="">Países Baixos</option>
@@ -158,63 +79,10 @@
               <option value="">Papua Nova Guiné</option>
               <option value="">Paquistão</option>
               <option value="">Paraguai</option>
-              <option value="">Peru</option>
-              <option value="">Polónia</option>
-              <option value="">Portugal</option>
-              <option value="">Quénia</option>
-              <option value="">Quirguistão</option>
-              <option value="">Quiribáti</option>
-              <option value="">Reino Unido</option>
-              <option value="">República Centro-Africana</option>
-              <option value="">República Checa</option>
-              <option value="">República Democrática do Congo	</option>
-              <option value="">República Dominicana</option>
-              <option value="">Roménia</option>
               <option value="">Ruanda</option>
               <option value="">Rússia</option>
               <option value="">Salomão</option>
               <option value="">Salvador</option>
-              <option value="">Samoa</option>
-              <option value="">Santa Lúcia</option>
-              <option value="">São Cristóvão e Neves</option>
-              <option value="">São Marinho</option>
-              <option value="">São Tomé e Príncipe</option>
-              <option value="">São Vicente e Granadinas</option>
-              <option value="">Seicheles</option>
-              <option value="">Senegal</option>
-              <option value="">Serra Leoa</option>
-              <option value="">Sérvia</option>
-              <option value="">Singapura</option>
-              <option value="">Síria</option>
-              <option value="">Somália</option>
-              <option value="">Sri Lanca</option>
-              <option value="">Sudão</option>
-              <option value="">Sudão do Sul</option>
-              <option value="">Suécia</option>
-              <option value="">Suíça</option>
-              <option value="">Suriname</option>
-              <option value="">Tailândia</option>
-              <option value="">Taiuã</option>
-              <option value="">Tajiquistão</option>
-              <option value="">Tanzânia</option>
-              <option value="">Timor-Leste</option>
-              <option value="">Togo</option>
-              <option value="">Tonga</option>
-              <option value="">Trindade e Tobago</option>
-              <option value="">Tunísia</option>
-              <option value="">Turcomenistão</option>
-              <option value="">Turquia</option>
-              <option value="">Tuvalu</option>
-              <option value="">Ucrânia</option>
-              <option value="">Uganda</option>
-              <option value="">Uruguai</option>
-              <option value="">Usbequistão</option>
-              <option value="">Vanuatu</option>
-              <option value="">Vaticano</option>
-              <option value="">Venezuela</option>
-              <option value="">Vietname</option>
-              <option value="">Zâmbia</option>
-              <option value="">Zimbábue</option>
              </b-form-select>  
              <br><br>
              <b-form-checkbox class="checkbox-account">Tenho 13 anos de idade ou mais e aceitoos termos <br>
@@ -233,7 +101,10 @@
     <script>
     export default {
     
-    }
+     
+
+      }
+    
     </script>
     
     <style lang="scss">
