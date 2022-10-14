@@ -40,18 +40,18 @@
 </template>
 
 <script>
-export default {
-    data() {
-      return {
-        selected: null,
-        options: [
-          { value: null, text: 'Please select some item' },
-          { value: '1', text: 'Teste 1' },
-          { value: '2', text: 'Teste 2' },
-          { value: '3', text: 'Teste 3' },
-        ],
-        }
-    },
+    export default {
+        data() {
+        return {
+            selected: null,
+            options: [
+            { value: null, text: 'Please select some item' },
+            { value: '1', text: 'Teste 1' },
+            { value: '2', text: 'Teste 2' },
+            { value: '3', text: 'Teste 3' },
+            ],
+            }
+        },
     };
 </script>
 

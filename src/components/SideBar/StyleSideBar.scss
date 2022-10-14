@@ -1,6 +1,7 @@
-.side-bar {
+.container.side-bar {
     background-color: #2C313A;
     height: auto;
+    margin: 0;
 }
 
 .btn.side-bar-home {
@@ -38,7 +39,51 @@
     .dropdown-toggle::after{
         margin-left: 80%;
     }
+
+    .dropdown-menu{
+        background-color: #373B42;
+        height: 60px;
+        font-size: 8px;
+        border: 0; 
+        border-radius: 0;
+    }
+
+    .dropdown-divider {
+        border-top: 1px solid #9698A0;
+        margin: 2px 4px 0 4px;
+    }
+
+    .dropdown-item {
+        color: #929497;
+        padding: 0 0 3px 15px;
+        position: relative;
+
+        &:hover {
+            color: #EBECEE;
+            background-color: transparent;
+        }
+
+        input[type="checkbox"] {
+            background-color: #23252A;
+            margin: 0;
+            display: inline-block;
+            position: absolute;
+            left: 2px;
+            top: 1px;
+            width: 10px;
+            height: 10px;
+            border-radius: 0;
+        
+            &:checked {
+                background: #23252A;
+                border: 0;
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+    }
 }
+
 
 .list-games {
     height: 11px;
@@ -50,18 +95,16 @@
     }
 }
 
-.btn.more-less {
+.btn-secondary.btn.more-less {
     display: inline-block;
     position: absolute;
     background-color: transparent;
     font-size: 7px;
     border: 0;
     border-radius: 0;
-    padding: 0;
-    margin: 0;
-    width: 10%;
+    padding: 0 0 0 10px;
     height: 10px;
-    
+
     &:hover {
         background-color: transparent;
     }
@@ -76,8 +119,8 @@
     display: inline-block;
     position: absolute;
     left: 13px;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 2px;
+    padding: 0 0 0 1px;
 
     &:hover {
         background-color: #3E4E69;
@@ -87,6 +130,7 @@
 
 .col-md-12.size-img-thumb {
     height: 15px;
+    padding:  0 0 0 16px;
     position: relative;
     cursor: pointer;
 
