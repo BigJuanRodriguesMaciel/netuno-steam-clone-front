@@ -1,6 +1,16 @@
 <template>
-    <SideBarMenu/>
-    <AllGamesPlayed/>
+    <b-container fluid class="mblank">
+        <b-row>
+            <b-col md="3">
+                <SideBarMenu/>
+            </b-col>
+            <b-col md="9">
+                <AllGamesPlayed/>
+            </b-col>
+        </b-row>
+    </b-container>
+    
+   
 </template>
 
 <script>

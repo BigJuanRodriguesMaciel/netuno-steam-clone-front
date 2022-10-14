@@ -1,5 +1,5 @@
 <template>
-  <b-container class="all-games w-75">
+  <div class="all-games">
       <b-dropdown class="dropdown-all" id="dropdown-1" :text="titleAllGames  + ` (${ imgDatas.length })`">
         <div v-for="(item, index) in allGames" :key="index">
           <b-dropdown-item v-if="item != '#divider'" @click="changeTitleAll(item)">{{ item }}</b-dropdown-item>
@@ -18,7 +18,7 @@
         <ListAllGames :image="item" />
       </b-col>
     </b-row>
-  </b-container>
+  </div>
 </template>
   
 <script>

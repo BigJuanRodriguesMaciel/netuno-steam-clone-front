@@ -1,11 +1,12 @@
-.container.side-bar {
+.side-bar {
     background-color: #2C313A;
     height: auto;
     margin: 0;
+    display: inline-block;
 }
 
 .btn.side-bar-home {
-    padding: 0 10px 0 10px;
+    padding: 0;
     border: 0;
     border-radius: 3px;
     background-color: #3E4047;
@@ -15,8 +16,10 @@
     background-repeat: no-repeat;
     font-size: 11px;
     text-align: left;
+    margin: 0;
     width: 100%;
     height: 20px;
+    left: 0;
 
     &:hover {
         background-color: #3E4047;
@@ -25,13 +28,19 @@
 
 .dropdown-menu-all.btn-group {
     width: 100%;
+
+    .btn{
+        margin: 0;
+        width: 0;
+        left: 0;
+    }
+
     .btn-secondary{
         height: 18px;
-        display: block;
         background-color: #23252A;
         border: 0;
         border-radius: 3px;
-        padding: 0 10px 0 10px;
+        padding: 0;
         font-size: 12px;
         text-align: left;
     }
@@ -102,12 +111,15 @@
     font-size: 7px;
     border: 0;
     border-radius: 0;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 8px;
     height: 10px;
+    margin: 0;
+    width: 0;
+    left: 0;
 
     &:hover {
         background-color: transparent;
-    }
+    }  
 }
     
 

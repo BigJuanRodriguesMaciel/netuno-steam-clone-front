@@ -8,6 +8,10 @@ import Store from '@/views/PageStore.vue'
 
 const routes = [
     {
+        path: '/',
+        redirect: '/login'
+    },
+    {
         path: '/login',
         component: Login,
     },
@@ -18,11 +22,12 @@ const routes = [
     {
         path: '/library',
         component: Library,
-    },
+        meta: { showHeader: true, showFooter: false}
+    }, 
     {
         path: '/store',
         component: Store,
-        meta: { shoeHeader: true, showFooter: true}
+        meta: { showHeader: true, showFooter: true}
     },
 
 

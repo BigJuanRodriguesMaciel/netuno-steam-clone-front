@@ -65,6 +65,7 @@ $text-color-login: #C3CBD6;
     border: 1px solid #474F61;
     font-size: 10px;
     outline: 0 !important;
+    
 
     &:focus {
         background-color: $background-color-login  !important;
@@ -175,6 +176,7 @@ $text-color-login: #C3CBD6;
 
 .menu-search {
     background-color: #23252A;
+    margin-top: 3px;
     height: 18px;
     border-radius: 3px;
     border: 2px solid transparent;
@@ -186,7 +188,7 @@ $text-color-login: #C3CBD6;
         border: 2px solid #1A1A1B;
         box-shadow: none;
     }
-
+   
     input {
         background: transparent;
         border-radius: 0;
@@ -194,8 +196,8 @@ $text-color-login: #C3CBD6;
         color: white;
         height: 23px;
         outline: 0;
-        font-size: 10px;
-        padding: 0 0 9px 0;
+        font-size: 8px;
+        padding: 0 0 9px 5px;
         margin: 0;
         display: inline-block;
 
@@ -244,8 +246,6 @@ $text-color-login: #C3CBD6;
         position: relative;
         background-color: transparent;
         margin: 0;
-        display: block;
-        float: left;
 
         &:hover {
             background-color: transparent !important;
@@ -254,9 +254,9 @@ $text-color-login: #C3CBD6;
         img {
             height: 11px;
             width: 11px;
-            position: absolute;
-            right: 6px;
-            top: 1px;
+            position: relative;
+            right: 0px;
+            top: -7px;
         }
     }
 }
